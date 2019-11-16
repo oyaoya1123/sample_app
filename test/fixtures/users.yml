@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+#rails tutorial 8章まで使わないのでコメントアウト
+
+#one:
+#  name: MyString
+#  email: MyString
+
+#two:
+#  name: MyString
+#  email: MyString
