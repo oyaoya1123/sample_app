@@ -8,6 +8,8 @@ gem 'rails', '~> 5.2.3'
 gem 'bcrypt'
 gem 'gravtastic'
 gem 'faker'
+gem 'carrierwave'
+gem 'mini_magick'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
@@ -73,6 +75,7 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'fog', '1.42'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
